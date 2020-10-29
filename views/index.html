@@ -79,12 +79,16 @@
                     <label for="phoneno"></label>
                     <input type="number" id="phoneno" name="pn" required="required" placeholder="Phone number">
                 </p>
-                <p>
-                    <label for="choice"></label>
-                    <input type="text" id="choice" name="c" required="required" placeholder="Which burger do you want?">
-                </p>
+
             </form>
             <p>
+                <label for="burger">Burger</label>
+                <select id="burger" name="bur">
+                    <option>Crabby Patty</option>
+                    <option>Bobs burger</option>
+                    <option>Keffan Classic</option>
+                </select>
+
                 <label for="Payment">Payment</label>
                 <select id="payment" name="pay">
                     <option>Swish</option>
@@ -93,6 +97,9 @@
                     <option>Bitcoin</option>
                     <option>spänn</option>
                 </select>
+            </p>
+            <p>
+                <button type="submit"><img src=https://icons.iconarchive.com/icons/praveen/minimal-outline/256/check-icon.png> Place order</button>
             </p>
         </section>
     </main>
